@@ -60,18 +60,25 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
-					
+
+					<!-- <configuration>
+						<forkCount>true</forkCount>
+						<argLine></argLine>
+						<suiteXmlFiles>
+							<suiteXmlFiles>testng.xml</suiteXmlFiles>
+						</suiteXmlFiles>
+					</configuration> -->
+
+
 					<configuration>
-					<forkCount>true</forkCount>
-					<argLine></argLine>
-					<suiteXmlFiles>
-						<suiteXmlFiles>testng.xml</suiteXmlFiles>
-					</suiteXmlFiles>
-				</configuration>
-					
+						<suiteXmlFiles>
+							<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+
 				</plugin>
 
-				
+
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
