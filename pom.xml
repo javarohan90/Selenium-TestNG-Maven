@@ -65,7 +65,7 @@
 					<forkCount>true</forkCount>
 					<argLine></argLine>
 					<suiteXmlFiles>
-						<suiteXmlFiles>Selenium_TestNG_Maven/testng.xml</suiteXmlFiles>
+						<suiteXmlFiles>testng.xml</suiteXmlFiles>
 					</suiteXmlFiles>
 				</configuration>
 					
